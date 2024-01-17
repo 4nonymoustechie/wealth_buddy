@@ -1,5 +1,6 @@
 import logo from '../../assets/logo.svg'
 import Hero from './hero/HERO.JSX'
+import Section from './section/Section'
 const Home = () => {
 
     return(
@@ -23,7 +24,10 @@ const Home = () => {
                 </div>
  
         </nav>
+        <div>
           <Hero/>
+          <Section/>
+          </div>
         </>
 
 

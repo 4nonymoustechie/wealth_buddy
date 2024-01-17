@@ -3,6 +3,8 @@ import React from 'react'
 import people from '../../../assets/people.png'
 import star from '../../../assets/Vector .png'
 import ambassador from '../../../assets/Ambassador.png'
+import Button from '../../button/Button'
+import arrow from '../../../assets/arrow.png'
 
 
 const Hero = () => {
@@ -10,7 +12,7 @@ const Hero = () => {
     <>
     <div className='font-Montserrat  px-[6rem]'>
 
-        <div className=' relative'>
+        <div className=' relative '>
           <div className=" flex flex-row font-bold text-[203.08px] leading-[145.43px] w-[591px] h[291px] text-left">
         <p className=''>Be the next</p>
         <img className= "w-[393px] h-[357.72px] mt-[9rem]"src={star} alt="" />
@@ -20,7 +22,7 @@ const Hero = () => {
         <div className='absolute bg-white rounded-lg top-[33rem] left-[21.8rem] w-[603px] h-[118.97px] text-[82.75px] shadow-lg flex flex-row justify-between'>
         <p>Wealthbuddy</p>
         </div>
-        <div className='w-[1000px] absolute top-[40rem] left-[3rem]'>
+        <div className='w-[1000px] absolute top-[40rem] left-[1rem]'>
             <img src={ambassador} alt="" />
         </div>
         </div>
@@ -33,8 +35,15 @@ const Hero = () => {
         </div>
         </div> 
         </div>
-        <div className='mr[5rem]'>
+        <div className=''>
         <img className= "w-[393px] h-[357.72px] "src={star} alt="" />
+        </div>
+
+        <div className='flex justify-center relative items-center '>
+          <div className='flex justify-evenly items-center '>
+          <img  className ="absolute ml-[18rem]"src={arrow} alt="" />
+          <Button text='APPLY NOW'type='button'/>
+          </div>
         </div>
        
    
