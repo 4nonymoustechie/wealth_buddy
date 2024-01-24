@@ -41,7 +41,6 @@ const Hero = () => {
 
         <div className='flex justify-center relative items-center '>
           <div className='flex justify-evenly items-center '>
-          <img  className ="absolute ml-[18rem]"src={arrow} alt="" />
           <Button text='APPLY NOW'type='button'/>
           </div>
         </div>
