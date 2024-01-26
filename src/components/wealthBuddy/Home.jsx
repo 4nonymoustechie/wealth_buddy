@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
 import Container from '../../shared/container/Container'
 import Profile from '../profile_button/Profile'
@@ -9,7 +10,7 @@ const Home = () => {
     return(
 
         <>
-       
+       <Link to={"/"}>
        <Container/>
         <div>
           <Hero/>
@@ -17,6 +18,7 @@ const Home = () => {
           <Section_2/>
           <Profile/>
           </div>
+          </Link>
         </>
 
 

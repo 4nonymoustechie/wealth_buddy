@@ -31,7 +31,7 @@ const Section = () => {
           Age: Just be above 18.
           </p>
           <div className='flex justify-evenly items-center '>
-          <Button text={'LEARN MORE'}/>
+          <Button text={'LEARN MORE'} width={'w-[384px]'} texts={'text-[34.97px]'}/>
           </div>
         </div>
     </div>

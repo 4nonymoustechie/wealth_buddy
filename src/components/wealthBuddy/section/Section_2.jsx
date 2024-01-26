@@ -28,7 +28,7 @@ const Section_2 = () => {
     <div className='flex flex-row justify-between items-center px-[10rem] gap-20'>
       <h3 className='text-[35.07px] font-semibold'>Featured Applicants</h3>
       <div className='flex justify-evenly items-center  '>
-      <Button  text={'VIEW ALL'}/>
+      <Button  text={'VIEW ALL'} width={'w-[384px]'} texts={'text-[34.97px]'}/>
       </div>
     </div>
     </div>
