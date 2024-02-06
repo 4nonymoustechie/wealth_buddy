@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Job from './components/About/job/Job.jsx'
+import Signup from './components/Signup/Signup.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/job",
     element: <div><Job/></div>,
+  },
+  {
+    path: "/signup",
+    element: <div><Signup/></div>,
   },
 ]);
 

@@ -28,7 +28,7 @@ const Employer = () => {
             This has kept us true to our founding promise “Let’s grow wealth for you”
             </p>
         </div>
-        <div className='flex item-center ml-[50rem]'>
+        <div className='flex item-center ml-[50 rem]'>
         <Button text={'APPLY NOW'}  width={'w-[384px]'} texts={"text-[34.97px]"} />
         </div>
         </div>
