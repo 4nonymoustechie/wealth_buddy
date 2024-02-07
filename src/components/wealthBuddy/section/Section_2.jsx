@@ -16,7 +16,7 @@ const Section_2 = () => {
  
         </p>
         <div className='flex justify-evenly items-center mr-[15rem] mt-[1rem] '>
-        <Button text={'READ MORE'}/>
+        <Button text={'READ MORE'} width={'w-[424px]'} texts={"text-[34.97px]"}/>
         </div>
       </div>
       <div className='w-[904px] h-[686px]'>

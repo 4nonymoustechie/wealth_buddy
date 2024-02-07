@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom'
 import lady from '../../assets/lady.png'
 import shape_1 from '../../assets/Rectangle1.png'
 import Signing from './Signing'
+import Header from '../../shared/container/header/Header'
+import Footer from '../../shared/container/footer/Footer'
 
 const Signup = () => {
     return (
         <div>
-            <Link to={"signup"}>
+            {/* <Link to={"signup"}> */}
 
-                <Container />
+                <Header />
  
                 
                 <div className='flex flex-row px-40 mt-[10rem]'>
@@ -50,7 +52,9 @@ const Signup = () => {
 
 
 
-            </Link>
+            {/* </Link> */}
+
+            <Footer top={"top-[200rem]"}/>
 
 
         </div>

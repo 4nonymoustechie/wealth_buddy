@@ -1,6 +1,7 @@
 import React from 'react'
 import Button_2 from '../../button/Button_2'
 import Button from '../../button/Button'
+import { Link } from 'react-router-dom'
 
 const Employer = () => {
   return (
@@ -29,7 +30,9 @@ const Employer = () => {
             </p>
         </div>
         <div className='flex item-center ml-[50 rem]'>
+          <Link to={"signup"}>
         <Button text={'APPLY NOW'}  width={'w-[384px]'} texts={"text-[34.97px]"} />
+        </Link>
         </div>
         </div>
     </div>

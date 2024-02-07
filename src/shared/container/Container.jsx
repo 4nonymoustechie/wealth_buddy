@@ -7,7 +7,7 @@ const Container = ({Children}) => {
     <div>
         <Header/>
         {Children}
-        <Footer/>
+        <Footer top={'top-[260rem]'}/>
     </div>
   )
 }

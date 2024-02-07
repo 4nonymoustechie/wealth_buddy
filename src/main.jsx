@@ -11,6 +11,7 @@ import {
 import "./index.css";
 import Job from './components/About/job/Job.jsx'
 import Signup from './components/Signup/Signup.jsx'
+import Faq from './components/FAQ\'S/Faq.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,8 +23,12 @@ const router = createBrowserRouter([
     element: <div><Job/></div>,
   },
   {
-    path: "/signup",
+    path: "/job/signup",
     element: <div><Signup/></div>,
+  },
+  {
+    path: "/job/signup/faq",
+    element: <div><Faq/></div>,
   },
 ]);
 

@@ -41,7 +41,7 @@ const Hero = () => {
 
         <div className='flex justify-center relative items-center '>
           <div className='flex justify-evenly items-center '>
-          <Button text='APPLY NOW'type='button'/>
+          <Button text='APPLY NOW'type='button' width={'w-[424px]'} texts={"text-[34.97px]"}/>
           </div>
         </div>
        
